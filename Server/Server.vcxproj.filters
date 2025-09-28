@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TCP">
+      <UniqueIdentifier>{cf6eafcc-e586-4086-a0a6-0aed3ebc0c12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerApp">
+      <UniqueIdentifier>{5b3d1403-bf91-4886-82a3-da7226095ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCP">
+      <UniqueIdentifier>{4828d90e-00bb-4c76-a241-9bd396d92458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{890860a3-72b4-411d-b10f-ea75ac9468fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{86efeb35-0049-48fe-9577-f11ae76f7a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{a7d3a324-f9dd-4ce9-890f-f63f32340126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{b7e7c0c6-4e26-474e-8cff-e472728aa8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page">
+      <UniqueIdentifier>{a8bf641b-85c1-472b-9b9a-be031500eb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\PageManager">
+      <UniqueIdentifier>{4aec352a-e082-4bdf-9879-13e8e5c78ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDP">
+      <UniqueIdentifier>{bf335324-64d0-402a-a062-d1917d7d9038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Slot">
+      <UniqueIdentifier>{a2e2cc79-7ce9-4db0-9473-6576dfcba8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Channel">
+      <UniqueIdentifier>{136d68d3-c5d9-46b6-80bc-aff3694b85f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Server.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerApp.cpp">
+      <Filter>ServerApp</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocket.cpp">
+      <Filter>TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPListener.cpp">
+      <Filter>TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServerApp.cpp">
+      <Filter>ServerApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerThread.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleQueue.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueHandler.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="ActRoomManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InactRoomManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Page.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPageManager.cpp">
+      <Filter>Manager\PageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomPageManager.cpp">
+      <Filter>Manager\PageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PageManager.cpp">
+      <Filter>Manager\PageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPSocket.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryStream.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPRecvThread.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotState.cpp">
+      <Filter>Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerResourceProvider.cpp">
+      <Filter>Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStartHelper.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerApp.h">
+      <Filter>ServerApp</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocket.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPListener.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServerApp.h">
+      <Filter>ServerApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="eException.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerThread.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleQueue.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueHandler.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="WSAINFO.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP.h">
+      <Filter>IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="ROOM_PROFILE.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="ActRoomManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InactRoomManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="USER_PROFILE.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Page.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartBuffer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PageManager.h">
+      <Filter>Manager\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPageManager.h">
+      <Filter>Manager\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomPageManager.h">
+      <Filter>Manager\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPSocket.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryStream.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPRecvThread.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPAddressInfo.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="eTcpPacketType.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="eUdpPacketType.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYER_DATA.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="eRole.h">
+      <Filter>Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="eCharacterType.h">
+      <Filter>Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotState.h">
+      <Filter>Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerResourceProvider.h">
+      <Filter>Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStartHelper.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Server.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

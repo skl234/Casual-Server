@@ -1,0 +1,58 @@
+﻿  ActRoomManager.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\ActRoomManager.cpp(43,55): warning C4267: '=': 'size_t'에서 'u_short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Channel.cpp
+  GameStartHelper.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\GameStartHelper.cpp(25,25): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\GameStartHelper.cpp(31,39): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\GameStartHelper.cpp(46,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\GameStartHelper.cpp(86,29): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\GameStartHelper.cpp(112,31): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\GameStartHelper.cpp(134,29): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MemoryStream.cpp
+  Connection.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\eTcpPacketType.h(2,18): warning C4114: 동일한 형식 한정자를 두 번 이상 사용했습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\Connection.cpp(51,50): warning C4267: '=': 'size_t'에서 'ULONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  InactRoomManager.cpp
+  IOCPServerApp.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\eTcpPacketType.h(2,18): warning C4114: 동일한 형식 한정자를 두 번 이상 사용했습니다.
+  Lobby.cpp
+  Page.cpp
+  PageManager.cpp
+  QueueHandler.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\eTcpPacketType.h(2,18): warning C4114: 동일한 형식 한정자를 두 번 이상 사용했습니다.
+  Room.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\eTcpPacketType.h(2,18): warning C4114: 동일한 형식 한정자를 두 번 이상 사용했습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\Room.cpp(284,30): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\Room.cpp(450,24): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RoomManager.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\RoomManager.cpp(8,39): warning C4267: '인수': 'size_t'에서 'u_short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RoomPageManager.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\RoomPageManager.cpp(12,47): warning C4267: '인수': 'size_t'에서 'u_short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ServerResourceProvider.cpp
+  SlotState.cpp
+  Timer.cpp
+  UDPRecvThread.cpp
+  UDPSocket.cpp
+  User.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\eTcpPacketType.h(2,18): warning C4114: 동일한 형식 한정자를 두 번 이상 사용했습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\User.cpp(433,25): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  컴파일하고 있습니다...
+  ServerApp.cpp
+  CircleQueue.cpp
+  IOCP.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\IOCP.cpp(43,33): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Server.cpp
+  TCPListener.cpp
+  TCPSocket.cpp
+  Thread.cpp
+  UserManager.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\eTcpPacketType.h(2,18): warning C4114: 동일한 형식 한정자를 두 번 이상 사용했습니다.
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\UserManager.cpp(100,55): warning C4267: '=': 'size_t'에서 'u_short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UserPageManager.cpp
+C:\Users\user\Desktop\CasualServer완\ServerV3\Server\Server\UserPageManager.cpp(12,47): warning C4267: '인수': 'size_t'에서 'u_short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WorkerThread.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 1282 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Server.vcxproj -> C:\Users\user\Desktop\CasualServer완\ServerV3\Server\x64\Release\Server.exe
